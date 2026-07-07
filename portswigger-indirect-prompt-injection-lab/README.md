@@ -1,9 +1,9 @@
-# Portswigger lab writeup (Indirect Prompt Injection)
+# Portswigger Challenge writeup (Indirect Prompt Injection)
 
-## Lab Description:
-This lab is vulnerable to indirect prompt injection. The user Carlos frequently uses the live chat to ask about the Lightweight "l33t" Leather Jacket product. To solve the lab, delete Carlos.
+## Challenge Description:
+This challenge is vulnerable to indirect prompt injection. The user Carlos frequently uses the live chat to ask about the Lightweight "l33t" Leather Jacket product. To solve the challenge, delete Carlos.
 
-Lab link: https://portswigger.net/web-security/llm-attacks/lab-indirect-prompt-injection
+Challenge link: https://portswigger.net/web-security/llm-attacks/lab-indirect-prompt-injection
 
 We have access to the register endpoint, we create an account.
 We can talk to a chatbot.
@@ -148,5 +148,5 @@ The LLM then follows these injected instructions and executes delete_account dur
 ---
 
 
-# Lab solved
-![lab-solved](assets/image-5.png)
+# Challenge solved
+![challenge-solved](assets/image-5.png)
